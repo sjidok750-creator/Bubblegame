@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>Bubble Bobble</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#000000">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="stage">
+    <canvas id="game" width="256" height="224"></canvas>
+    <div id="controls">
+      <div id="dpad"><div class="dl">◀</div><div class="dr">▶</div></div>
+      <div id="buttons">
+        <div id="btn-fire" class="btn">●<span>BUBBLE</span></div>
+        <div id="btn-jump" class="btn">▲<span>JUMP</span></div>
+      </div>
+    </div>
+    <div id="topbar">
+      <button id="btn-mute" type="button">🔊</button>
+      <button id="btn-fs" type="button">⛶</button>
+    </div>
+  </div>
+  <script src="js/sprites.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/input.js"></script>
+  <script src="js/levels.js"></script>
+  <script src="js/engine.js"></script>
+</body>
+</html>
