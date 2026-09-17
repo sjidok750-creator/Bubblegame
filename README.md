@@ -5,8 +5,8 @@
 
 ## 실행 방법
 
-* **GitHub Pages**: 저장소 *Settings → Pages* 에서 브랜치를 선택해 배포하면
-  `https://<사용자명>.github.io/Bubblegame/` 주소로 바로 플레이할 수 있습니다.
+* **바로 플레이 (GitHub Pages)**: <https://sjidok750-creator.github.io/Bubblegame/>
+  개발 브랜치에 푸시할 때마다 GitHub Actions 가 `gh-pages` 브랜치로 자동 배포합니다.
 * **로컬**: `index.html`을 브라우저로 열거나, 아무 정적 서버로 폴더를 서비스하면 됩니다.
 * **태블릿 홈 화면 추가**: Safari/Chrome 에서 "홈 화면에 추가"를 하면 전체 화면 앱처럼 실행됩니다.
   우측 상단 ⛶ 버튼으로 전체 화면(가로 고정)도 가능합니다.
